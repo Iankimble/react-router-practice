@@ -1,0 +1,16 @@
+body{
+    grid-template-columns: 1;
+    grid-template-rows: 3;
+    margin: 0px;
+    padding: 0px;
+    background-color: skyblue;
+        #main{
+            background-color: green;
+            grid-row: 3;
+        }
+
+        #about{
+            background-color: pink;
+            grid-row: 2;
+        }
+}
